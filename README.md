@@ -96,3 +96,7 @@ This works as long as you have the `rerun` formatter enabled.
 For example a JUnit formatter:
 
     -Dcucumber.options="--format junit:target/cucumber-junit-report.xml"
+
+
+# Forked from
+https://github.com/cucumber/cucumber-java-skeleton

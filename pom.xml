@@ -36,6 +36,21 @@
             <version>1.0.10</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>2.42.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jdbi</groupId>
+            <artifactId>jdbi</artifactId>
+            <version>2.55</version>
+        </dependency>
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901.jdbc4</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -46,8 +61,8 @@
                 <version>3.1</version>
                 <configuration>
                     <encoding>UTF-8</encoding>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
             </plugin>
