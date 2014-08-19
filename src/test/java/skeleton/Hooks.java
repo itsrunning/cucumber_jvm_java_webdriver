@@ -25,6 +25,7 @@ public class Hooks extends BaseStep {
                 "jdbc:postgresql://localhost:5432/microblog",
                 "joe",
                 "joe");
+        dbi.open();
         user = dbi.open(UserDao.class);
         microBlog = dbi.open(MicroBlogDao.class);
         user.deleteAll();
